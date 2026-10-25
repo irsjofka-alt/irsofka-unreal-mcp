@@ -1,0 +1,10 @@
+[project]
+name = "irsofka-unreal-mcp"
+version = "0.1.0"
+description = "Station-side MCP bridge for the IRSofka Unreal Engine 5.8 plugin receiver"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.0.0"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
